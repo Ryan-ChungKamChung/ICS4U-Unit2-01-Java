@@ -3,7 +3,7 @@
 *
 * @author  Ryan Chung
 * @version 1.0
-* @since   2021-10-26
+* @since   2021-11-30
 */
 
 import java.io.BufferedReader;
@@ -70,6 +70,8 @@ final class ReverseString {
 
             reversedString = reverse(inputString);
             System.out.println(reversedString);
+
+            System.out.println("\nDone.");
         } catch (IOException exception) {
             System.out.println("Please enter a string.");
         }
